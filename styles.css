@@ -79,8 +79,7 @@ li:hover{
 	
 }
 @media only screen and ((max-width: 480px) {
-	#slider-image {max-width: 100%;}
-	#flash-ad {display: none;}
+	
 	#Adiv {
 		float: left;
 		width: 100%;
