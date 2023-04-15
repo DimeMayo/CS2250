@@ -1,0 +1,102 @@
+.set {
+	background-color: #bfbc63; 
+	border: 1px solid;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+}
+li {
+	width: 80px;
+	height: 15px;
+	background-color: #b574ed;
+	border: 2px solid #e6e163;
+	margin: 2px;
+	padding: 5px;
+}
+ul{
+	list-style-type:none;
+}
+li:hover{
+	background-color: #e6e163;
+}
+#MyFoot {
+		text-align:center;
+		clear:both;
+		background-color: #bfbc63; 
+	border: 1px solid;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+		
+	}
+	#MyTitle {
+		text-align:center;
+		clear:both;
+		background-color: #bfbc63; 
+	border: 1px solid;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+		
+	}
+
+
+@media only screen and (min-width: 769px) {
+	#Adiv {
+		float: left;
+		width: 24.12%;
+	}
+	#Cdiv {
+		float: left;
+		width: 24.12%;
+	}
+	#Ddiv {
+		float: left;
+		width: 24.12%;
+	}
+	#Bdiv {
+		float: right;
+		width: 25.09%;
+	}
+
+	
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	#Adiv {
+		float: left;
+		width: 48%;
+	}
+	#Cdiv {
+		float: left;
+		width: 48%;
+	}
+	#Ddiv {
+		float: left;
+		width: 48%;
+	}
+	#Bdiv {
+		float: left;
+		width: 48%;
+	}
+
+	
+}
+@media only screen and ((max-width: 480px) {
+	#slider-image {max-width: 100%;}
+	#flash-ad {display: none;}
+	#Adiv {
+		float: left;
+		width: 100%;
+	}
+	#Cdiv {
+		float: left;
+		width: 100%;
+	}
+	#Ddiv {
+		float: left;
+		width: 100%;
+	}
+	#Bdiv {
+		float: left;
+		width: 100%;
+	}
+
+	
+}
